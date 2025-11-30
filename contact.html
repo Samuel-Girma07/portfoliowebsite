@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Samuel Girma - Get in touch for web development, graphic design, or collaboration opportunities">
+    <meta name="author" content="Samuel Girma">
+    <title>Samuel Girma | Contact</title>
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- FontAwesome CDN for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- ==================== NAVIGATION ==================== -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- Logo/Brand -->
+            <a href="index.html" class="nav-logo">
+                <span class="logo-text">Samuel</span><span class="logo-accent">Girma</span>
+            </a>
+            
+            <!-- Navigation Links -->
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        <i class="fas fa-home"></i> Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">
+                        <i class="fas fa-user"></i> About
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="skills.html" class="nav-link">
+                        <i class="fas fa-code"></i> Skills
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">
+                        <i class="fas fa-project-diagram"></i> Projects
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link active">
+                        <i class="fas fa-envelope"></i> Contact
+                    </a>
+                </li>
+            </ul>
+            
+            <!-- Mobile Menu Toggle -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+        </div>
+    </nav>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <main>
+        <section class="page-section">
+            <div class="container">
+                <!-- Page Header -->
+                <div class="page-header fade-in">
+                    <h1 class="page-title">Get In <span class="highlight">Touch</span></h1>
+                    <p class="page-subtitle">Have a question or want to work together? Let's connect!</p>
+                    <div class="title-underline"></div>
+                </div>
+
+                <!-- Contact Container -->
+                <div class="contact-container">
+                    <!-- Contact Form -->
+                    <div class="contact-form-wrapper fade-in">
+                        <div class="contact-form-card">
+                            <h2><i class="fas fa-paper-plane"></i> Send Me a Message</h2>
+                            <form class="contact-form" action="#" method="POST">
+                                <div class="form-group">
+                                    <label for="name">
+                                        <i class="fas fa-user"></i> Your Name
+                                    </label>
+                                    <input 
+                                        type="text" 
+                                        id="name" 
+                                        name="name" 
+                                        placeholder="Enter your full name"
+                                        required
+                                    >
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email">
+                                        <i class="fas fa-envelope"></i> Your Email
+                                    </label>
+                                    <input 
+                                        type="email" 
+                                        id="email" 
+                                        name="email" 
+                                        placeholder="Enter your email address"
+                                        required
+                                    >
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="subject">
+                                        <i class="fas fa-tag"></i> Subject
+                                    </label>
+                                    <input 
+                                        type="text" 
+                                        id="subject" 
+                                        name="subject" 
+                                        placeholder="What is this about?"
+                                    >
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="message">
+                                        <i class="fas fa-comment-dots"></i> Your Message
+                                    </label>
+                                    <textarea 
+                                        id="message" 
+                                        name="message" 
+                                        rows="6" 
+                                        placeholder="Write your message here..."
+                                        required
+                                    ></textarea>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-primary btn-full">
+                                    <i class="fas fa-paper-plane"></i> Send Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- Contact Information -->
+                    <div class="contact-info-wrapper fade-in-delay">
+                        <div class="contact-info-card">
+                            <h2><i class="fas fa-address-card"></i> Contact Information</h2>
+                            <p class="contact-intro">
+                                Feel free to reach out through any of the following channels. 
+                                I typically respond within 24-48 hours.
+                            </p>
+                            
+                            <div class="contact-info-list">
+                                <div class="contact-info-item">
+                                    <div class="contact-info-icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="contact-info-content">
+                                        <h4>Email</h4>
+                                        <a href="mailto:naodtskuyomi@gmail.com">naodtskuyomi@gmail.com</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-info-item">
+                                    <div class="contact-info-icon">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div class="contact-info-content">
+                                        <h4>Phone</h4>
+                                        <a href="tel:+251948998804">+251 948 998 804</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="contact-info-item">
+                                    <div class="contact-info-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="contact-info-content">
+                                        <h4>Location</h4>
+                                        <p>Addis Ababa, Ethiopia</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Social Links -->
+                            <div class="contact-socials">
+                                <h4>Connect With Me</h4>
+                                <div class="contact-social-links">
+                                    <a href="https://www.linkedin.com/in/samuel-girma-04a18b398" target="_blank" class="contact-social-link linkedin" aria-label="LinkedIn">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="https://github.com/Samuel-Girma07" target="_blank" class="contact-social-link github" aria-label="GitHub">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="mailto:naodtskuyomi@gmail.com" class="contact-social-link email" aria-label="Email">
+                                        <i class="fas fa-envelope"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <!-- CV Download -->
+                            <div class="contact-cv">
+                                <h4>Download My Resume</h4>
+                                <a href="cv.pdf" target="_blank" class="btn btn-secondary">
+                                    <i class="fas fa-file-pdf"></i> Download CV
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-text">
+                &copy; 2025 Samuel Girma | Student ID: 162/BSC-B6/2023
+            </p>
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/samuel-girma-04a18b398" target="_blank" class="footer-social-link" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:naodtskuyomi@gmail.com" class="footer-social-link" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://github.com/Samuel-Girma07" target="_blank" class="footer-social-link" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

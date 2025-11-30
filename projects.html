@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Samuel Girma's Projects - Web Development, Mobile Apps, Data Scraping, and Graphic Design Projects">
+    <meta name="author" content="Samuel Girma">
+    <title>Samuel Girma | Projects</title>
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- FontAwesome CDN for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- ==================== NAVIGATION ==================== -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- Logo/Brand -->
+            <a href="index.html" class="nav-logo">
+                <span class="logo-text">Samuel</span><span class="logo-accent">Girma</span>
+            </a>
+            
+            <!-- Mobile Menu Toggle -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+            
+            <!-- Navigation Links -->
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                        <i class="fas fa-home"></i> Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">
+                        <i class="fas fa-user"></i> About
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="skills.html" class="nav-link">
+                        <i class="fas fa-code"></i> Skills
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link active">
+                        <i class="fas fa-project-diagram"></i> Projects
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                        <i class="fas fa-envelope"></i> Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ==================== PROJECTS SECTION ==================== -->
+    <main>
+        <section class="page-section">
+            <div class="container">
+                <!-- Page Header -->
+                <div class="page-header fade-in">
+                    <h1 class="page-title">My <span class="highlight">Projects</span></h1>
+                    <p class="page-subtitle">A showcase of my recent work and accomplishments</p>
+                    <div class="title-underline"></div>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid">
+                    
+                    <!-- Project Card 1 - Grade Calculator App (HAS LINK) -->
+                    <article class="project-card fade-in">
+                        <div class="project-card-image">
+                            <div class="project-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <span class="project-category">Mobile Development</span>
+                            </div>
+                        </div>
+                        <div class="project-card-content">
+                            <h3 class="project-title">ACT Grade Calculator App</h3>
+                            <p class="project-description">
+                                Developed a mobile application specifically designed for American College of Technology 
+                                students to calculate their grades easily. The app features an intuitive interface 
+                                that allows students to input their scores and automatically computes their GPA 
+                                based on the college's grading system.
+                            </p>
+                            <div class="project-tools">
+                                <span class="tool-tag"><i class="fab fa-android"></i> Android Studio</span>
+                                <span class="tool-tag"><i class="fas fa-code"></i> Kotlin</span>
+                                <span class="tool-tag"><i class="fab fa-java"></i> Java</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://t.me/Actgpa/2" target="_blank" class="btn btn-project">
+                                    <i class="fas fa-external-link-alt"></i> Preview Project
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 2 - Movie Suggestion System (NO LINK) -->
+                    <article class="project-card fade-in">
+                        <div class="project-card-image">
+                            <div class="project-icon">
+                                <i class="fas fa-film"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <span class="project-category">Java Application</span>
+                            </div>
+                        </div>
+                        <div class="project-card-content">
+                            <h3 class="project-title">Movie Suggestion System</h3>
+                            <p class="project-description">
+                                Built an intelligent movie recommendation system in Java that suggests films 
+                                to users based on their favorite movies. The application analyzes user preferences 
+                                and uses algorithmic matching to provide personalized movie recommendations, 
+                                helping users discover new films they'll enjoy.
+                            </p>
+                            <div class="project-tools">
+                                <span class="tool-tag"><i class="fab fa-java"></i> Java</span>
+                                <span class="tool-tag"><i class="fas fa-brain"></i> Algorithm</span>
+                                <span class="tool-tag"><i class="fas fa-database"></i> Data Matching</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 3 - Meal Management System (NO LINK) -->
+                    <article class="project-card fade-in">
+                        <div class="project-card-image">
+                            <div class="project-icon">
+                                <i class="fas fa-utensils"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <span class="project-category">Database System</span>
+                            </div>
+                        </div>
+                        <div class="project-card-content">
+                            <h3 class="project-title">University Meal Management System</h3>
+                            <p class="project-description">
+                                Developed a comprehensive meal management system for university cafeterias. 
+                                The system handles meal scheduling, student meal plans, inventory tracking, 
+                                and reporting. Built with a robust SQL database backend to ensure efficient 
+                                data management and quick query responses.
+                            </p>
+                            <div class="project-tools">
+                                <span class="tool-tag"><i class="fas fa-database"></i> SQL</span>
+                                <span class="tool-tag"><i class="fas fa-server"></i> Database Design</span>
+                                <span class="tool-tag"><i class="fas fa-table"></i> Data Management</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 4 - Telegram Bot (HAS LINK) -->
+                    <article class="project-card fade-in">
+                        <div class="project-card-image">
+                            <div class="project-icon">
+                                <i class="fab fa-telegram-plane"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <span class="project-category">Bot Development</span>
+                            </div>
+                        </div>
+                        <div class="project-card-content">
+                            <h3 class="project-title">U-Report Ethiopia Telegram Bot</h3>
+                            <p class="project-description">
+                                Created an enhanced Telegram bot for U-Report Ethiopia to make their existing 
+                                bot's information more accessible to users. The bot provides streamlined access 
+                                to resources, improves user interaction, and makes important information 
+                                readily available to the Ethiopian youth community.
+                            </p>
+                            <div class="project-tools">
+                                <span class="tool-tag"><i class="fab fa-telegram-plane"></i> Telegram API</span>
+                                <span class="tool-tag"><i class="fas fa-robot"></i> Bot Development</span>
+                                <span class="tool-tag"><i class="fas fa-comments"></i> User Interaction</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://t.me/YouthInsightsBot" target="_blank" class="btn btn-project">
+                                    <i class="fas fa-external-link-alt"></i> Preview Project
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 5 - College Event Branding (NO LINK) -->
+                    <article class="project-card fade-in">
+                        <div class="project-card-image">
+                            <div class="project-icon">
+                                <i class="fas fa-paint-brush"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <span class="project-category">Graphic Design</span>
+                            </div>
+                        </div>
+                        <div class="project-card-content">
+                            <h3 class="project-title">College Event Branding</h3>
+                            <p class="project-description">
+                                Designed comprehensive branding materials including posters, banners, 
+                                social media graphics, and promotional artwork for various college events. 
+                                Created visually cohesive designs that effectively communicated event themes 
+                                and attracted student participation.
+                            </p>
+                            <div class="project-tools">
+                                <span class="tool-tag"><i class="fab fa-figma"></i> Figma</span>
+                                <span class="tool-tag"><i class="fas fa-image"></i> Photoshop</span>
+                                <span class="tool-tag"><i class="fas fa-pen-nib"></i> Illustrator</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 6 - Web Scraping Suite (HAS LINK) -->
+                    <article class="project-card fade-in">
+                        <div class="project-card-image">
+                            <div class="project-icon">
+                                <i class="fas fa-spider"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <span class="project-category">Data Engineering</span>
+                            </div>
+                        </div>
+                        <div class="project-card-content">
+                            <h3 class="project-title">Web Scraping Suite</h3>
+                            <p class="project-description">
+                                Built a comprehensive web scraping solution using Python scripts and Octoparse 
+                                to extract, clean, and analyze web data from various sources. Automated data 
+                                collection processes and created structured datasets for further analysis 
+                                and reporting purposes.
+                            </p>
+                            <div class="project-tools">
+                                <span class="tool-tag"><i class="fab fa-python"></i> Python</span>
+                                <span class="tool-tag"><i class="fas fa-cogs"></i> Octoparse</span>
+                                <span class="tool-tag"><i class="fas fa-chart-line"></i> Data Analysis</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://t.me/Scrapingproject" target="_blank" class="btn btn-project">
+                                    <i class="fas fa-external-link-alt"></i> Preview Project
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 7 - Freelance Web Development (NO LINK) -->
+                    <article class="project-card fade-in">
+                        <div class="project-card-image">
+                            <div class="project-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <div class="project-overlay">
+                                <span class="project-category">Web Development</span>
+                            </div>
+                        </div>
+                        <div class="project-card-content">
+                            <h3 class="project-title">Freelance Web Development</h3>
+                            <p class="project-description">
+                                Created responsive, user-friendly websites for local clients including 
+                                small businesses and individuals. Focused on modern design principles, 
+                                mobile responsiveness, fast loading times, and intuitive user experiences 
+                                tailored to each client's specific needs.
+                            </p>
+                            <div class="project-tools">
+                                <span class="tool-tag"><i class="fab fa-html5"></i> HTML5</span>
+                                <span class="tool-tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+                                <span class="tool-tag"><i class="fas fa-mobile-alt"></i> Responsive</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <!-- Call to Action -->
+                <div class="projects-cta fade-in">
+                    <div class="cta-card">
+                        <h3>Interested in working together?</h3>
+                        <p>I'm always open to discussing new projects and creative ideas.</p>
+                        <a href="contact.html" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i> Get In Touch
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-text">
+                &copy; 2025 Samuel Girma | Student ID: 162/BSC-B6/2023
+            </p>
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/samuel-girma-04a18b398" target="_blank" class="footer-social-link" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:naodtskuyomi@gmail.com" class="footer-social-link" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://github.com/Samuel-Girma07" target="_blank" class="footer-social-link" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
